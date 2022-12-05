@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ultra Tiger Toys</title>
+<link href="css/main-mobile.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/4bf0a75058.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<h1 class="hidden">Welcome to Ultra Tiger Toys</h1>
+    <div id="container">
+        <header id="header-con">
+            <div id="main-header" class="grid-con">
+                <img src="images/ultra-tiger-toys_logo_02.svg" alt="image" id="header-logo">
+                 <div id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                 </div>
+            </div>    
+        </header> 
+
+        <main>
+            <section id="hero-con">
+                <h2 class="hidden">Brand Story</h2>
+                <div class="grid-con">
+                    <div id="hero-text" class="box-color"></div>
+                </div>
+                <div class="main_btn"><a class="btn-1" href="#">Our Story</a></div>
+            </section>
+
+            <section id="image-slider-con">
+                <h2>Latest Events</h2>
+                <img src="images/christmas_event.jpg" width="428" height="309" alt="image">
+                <!-- ascii symbols for <> -->
+                <span id="mobile-slider-left">&#60;</span>
+                <span id="mobile-slider-right">&#62;</span>
+                <h3>Merry Christmas</h3>
+                <p>The annual Christmas is coming, we will hold a cat slave meeting event, and there will also be promotional activities for on-site products.</p>
+                <div class="main_btn"><a class="btn-1" href="#">Read More</a></div>
+            </section>
+
+            <section id="about-us-con">
+                <h2>Meet Our Team</h2>   
+                    <div id="about-us-text-con">    
+                        <div id="who-we-are" class="grid-con">
+                             
+                            <div id="about-us-text">
+                                <h2>Who We Are</h2>
+                                <p>JRJi Lab is a professional development team of 2D/3D character design, figures, artistic toys and accessories. 
+                                    In addition to assisting customers in making original characters, we also actively develop our own brand product 
+                                    “Ultra Tiger Toys” which was officially released on January 2022.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="main_btn"><a class="btn-1" href="#">Read More</a></div>      
+                    </div>  
+                    <div class="grid-con" id="about-us-photos">
+                        <img src="images/erica_designer.jpeg" width="350" height="350" alt="image" class="about-us-photo">
+                        <img src="images/134_designer.jpeg" width="350" height="350" alt="image" class="about-us-photo">
+                        <img src="images/alex_marketing.jpg" width="350" height="350" alt="image" class="about-us-photo">
+                        <img src="images/Chiao_designer.jpg" width="350" height="350" alt="image" class="about-us-photo">
+                    </div>         
+            </section>
+
+            <section id="contact-us-con">
+                <div class="grid-con">
+                    <div id="contact-text" class="box-color">
+                        <h2>Reach Out To Us</h2>
+                        <p>More daily routines belonging to various walks of life; will be launched one after another. 
+                            Welcome to subscribe to the e-newsletter to get the latest creative news or private message to 
+                            tell us the blueprint of the servant’s life you look forward to.</p>
+                        <h3>Representing our small stage. <br>
+                            The life of a servant is always richly myriad!</h3>
+                    </div>
+                    <section id="contact-form" class="box-color">
+                        <h3 class="hidden">Contact Us Form</h3>
+                        <h2>Contact</h2>
+                        <form action="email.php" method="POST" enctype="text/plain">
+                            <input name="fullName" type="text" placeholder="First & Last Name">
+                            <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                            <textarea name="msg" placeholder="Message"></textarea>
+                            <input name="submit" type="submit" value="Submit">
+                        </form>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer-con">
+            <div class="grid-con">
+                <div id="footer-box">
+                    <div id="footer-logo">
+                        <img src="images/ultra-tiger-toys_logo_02.svg" alt="logo">
+                        <h3>Newsletter - Sign-up</h3>
+                    </div>
+                </div>
+                
+                <div id="footer-newsletter">
+                    <form action="email.php" method="POST" enctype="text/plain">
+                        <input name="contactInfo" type="text" required placeholder="Email">
+                        <input name="fullName" type="text" placeholder="First & Last Name">
+                        <input id="footer-newsletter1_submit" class="grid-con" name="submit" type="submit" value="Sign-up">
+                    </form>
+                </div>
+
+                <div id="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+
+                <nav id="footer-nav">
+                    <h3 class="hidden">Footer Nav</h3>
+                    <ul>
+                        <li class="nav-left grid-con"><a href="#">Privacy Policy</a></li>
+                        <li class="nav-left grid-con"><a href="#">Terms & Conditions</a></li>
+                        <li class="nav-left grid-con"><a href="#">Services</a></li>
+                        <li class="nav-right grid-con"><a href="#">Sales and Refunds</a></li>
+                        <li class="nav-right grid-con"><a href="#">Legal</a></li>
+                    </ul>
+                </nav>
+
+                <div id="web-creater">
+                    <span> <span>©2022 by Ultra Tiger Toys. Proudly created with JRJi Lab</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
